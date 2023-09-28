@@ -2,4 +2,4 @@ from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 def main(request):
-    return HttpResponse('Test Webpage')
+    return render(request, 'main.html')
